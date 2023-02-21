@@ -4,8 +4,8 @@ def find_max(numbers):
         if i>result:
             result=i
     return(result)
-print(find_max([1,2,4,5]))
-print(find_max([5, 2, 7, 1, 6]))
+print(find_max([1,2,4,5])) # should print 5
+print(find_max([5, 2, 7, 1, 6])) # should print 7
 
 
 
